@@ -1,0 +1,46 @@
+# 비밀키 (최우선)
+.env
+.env.*
+!.env.example
+!.env.sample
+credentials/
+*credentials*.json
+*serviceAccount*.json
+*service-account*.json
+*.p12
+*.pem
+*.key
+auth.json
+token.json
+
+# 의존성·가상환경
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.gradle/
+Pods/
+
+# 빌드·캐시
+dist/
+build/
+.next/
+out/
+.cache/
+*.xcuserstate
+DerivedData/
+
+# 대용량 산출물
+output/
+outputs/
+*.mp4
+*.mov
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.zip
+
+# 시스템
+.DS_Store

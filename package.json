@@ -1,0 +1,31 @@
+{
+  "name": "youtube-shorts-maker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "make:shorts": "tsx scripts/make-shorts.mts",
+    "transcribe": "tsx scripts/transcribe-local.mts",
+    "transcribe:source": "tsx scripts/transcribe-local.mts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.451",
+    "@remotion/renderer": "^4.0.451",
+    "dotenv": "^17.4.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "remotion": "^4.0.451",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.3"
+  }
+}
